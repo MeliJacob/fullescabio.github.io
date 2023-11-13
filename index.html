@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FULLESCABIO</title>
+
+    <!---Bootstrap--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!---Bootstrap icons--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!---Fonts--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Jost&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+
+    <!---CSS--->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body oncontextmenu='return false' class='snippet-body'>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="IMG/Logo_fullescabio.svg" alt="#" id="logo_navbar"
+                        class="pb-1">FULLESCABIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="FAQ.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="productos.html">Productos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscá tus productos"
+                            aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="py-5 custom-py">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-8">
+                    <h1 class="text-white display-2 fw-bolder">Elevá tu experiencia</h1>
+                    <p class="text-white fs-4">Descubrí toda la variedad de marcas y precios
+                        que tenemos para ofrecerte</p>
+                    <button type="button" class="btn btn-warning text-warning-emphasis">Quiero ver más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5" id="cards">
+        <h2 class="text-black text-center fw-bolder pt-3">Productos destacados</h2>
+        <p class="text-center">¡Aprovechá los prouctos con descuento que seleccionamos esta semana especialmente para vos!</p>
+    
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30"><a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img bg-black rounded"><div class="text-center"><img src="IMG/jack-daniels.png" alt="Wisky Jack Daniels" class="img-cards"></div></div>
+                </div></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Wisky Jack Daniels</h4>
+                <p class="text-muted">$150000</p><a class="btn btn-outline-warning btn-sm" href="productos.html" data-abc="true">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30"><a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner ">
+                  <div class="main-img bg-black rounded"><div class="text-center"><img src="IMG/Jager.png" alt="Jägermeister" class="img-cards"></div></div>
+                </div></a>
+              <div class="card-body text-center">
+                <h3 class="card-title">Jägermeister</h3>
+                <p class="text-muted">$15000</p><a class="btn btn-outline-warning btn-sm" href="productos.html" data-abc="true">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30"><a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img bg-black rounded"> <div class="text-center"><img src="IMG/Gin_bombay_zafiro.png" alt="Gin Bombay Zafiro" class="img-cards"></div></div>
+                </div></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Gin Bombay Zafiro</h4>
+                <p class="text-muted">$55000</p><a class="btn btn-outline-warning btn-sm" href="productos.html" data-abc="true">COMPRAR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    
+
+    <section class="py-5 bg-secondary-subtle">
+        <div class="container pt-3">
+            <div class="row d-flex justify-content-center">
+                <h2 class="text-dark text-center fw-bolder">Nuestros beneficios</h2>
+                <p class="pb-5 text-center text-dark">Elegirnos es la mejor decisión para elevar
+                    tus momentos especiales</p>
+
+
+                <!----------- CARD 1 ------------>
+
+                <div class="card bg-warning py-3 col-lg-3 col-md-6 m-3">
+                    <div class="card-body text-center">
+                        <img src="IMG/wallet.png" class="pb-1" alt="wallet">
+                        <h4 class="card-title fw-bolder text-black">Pagalo como quieras</h4>
+                        <p class="card-text text-black">Pagalo con tarjeta de crédito, débito o Mercado Pago.</p>
+                        <a href="#modal1" data-bs-toggle="modal"
+                            class="card-link text-end link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Más
+                            info</a>
+                    </div>
+                </div>
+
+                <!----------- MODAL 1 ------------>
+
+                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title-1 fs-5" id="modal1">¡Podés abonar con el medionde pago que
+                                    prefieras!</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <img src="IMG/Medios-de-pago-online-habilitados-en-Argentina.png" alt="Medios_de_pago"
+                                    class="img-fluid">
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------- CARD 2 ------------>
+
+                <div class="card bg-warning  py-3 col-lg-3 col-md-6 m-3">
+                    <div class="card-body text-center">
+                        <img src="IMG/cart.png" class="pb-1" alt="wallet">
+                        <h4 class="card-title fw-bolder text-black">Lo pedís, lo tenés</h4>
+                        <p class="card-text text-black">Despachamos tu pedido en 24hs y hacemos envíos a todo el país.
+                        </p>
+                        <a href="#modal2" data-bs-toggle="modal"
+                            class="card-link text-end link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Más
+                            info</a>
+                    </div>
+                </div>
+
+
+                <!----------- MODAL 2 ------------>
+
+
+                <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title-2 fs-5" id="modal2">Trabajamos con las empresas líderes en el
+                                    mercado.</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <img src="IMG/envios_mobile.png" alt="Metodos_de_envío">
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------- CARD 3 ------------>
+
+                <div class="card bg-warning py-3 col-lg-3 col-md-6 m-3">
+                    <div class="card-body text-center">
+                        <img src="IMG/discount.png" class="pb-1" alt="discount">
+                        <h4 class="card-title fw-bolder text-black">Descuentos únicos</h4>
+                        <p class="card-text text-black">Suscribite a nuestro Newletter y recibí las mejores promociones.
+                        </p>
+                        <a href="#newsletter"
+                            class="card-link text-end link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">
+                            Suscribirse
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------- Video ------------>
+
+    <div class="container-fluid">
+        <div class="row">
+            <video muted autoplay loop>
+                <source src="VIDEOS/video-brindis.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!----------- Carousel cards ------------>
+
+    <section class="pt-5 pb-5" id="carusel-cards">
+        <div class="container py-4">
+            <div class="row">
+                <h2 class="text-black text-center fw-bolder">Testimonios</h2>
+                <p class="py-1 text-center">Conocé las experiencias de nuestros clientes y porqué nos elijen</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <!----------- Carousel cards 1 ------------>
+
+                                    <div class="col-12 col-lg-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="IMG/hombre_1.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pablo</h4>
+                                                <p class="card-text fst-italic">"FULLESCABIO la rompe,¡las birras
+                                                    y tragos son lo más! Siempre elijo FULLESCABIO,¡sin vueltas!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!----------- Carousel cards 2 ------------>
+
+                                    <div class="col-12 col-lg-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="IMG/mujer_1.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Camila</h4>
+                                                <p class="card-text fst-italic">"Sus birras y tragos son simplemente
+                                                    excepcionales. ¡La calidad y la variedad son insuperables!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!----------- Carousel cards 3 ------------>
+
+                                    <div class="col-12 col-lg-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="IMG/amigas_1.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Tatiana</h4>
+                                                <p class="card-text fst-italic">
+                                                    "Mi amiga y yo somos fans incondicionales. Cada reunión se
+                                                    convierte en un momento especial, ¡Amamos FULLESCABIO!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!----------- Carousel cards 4 ------------>
+
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-lg-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="IMG/hombre_2.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Francisco</h4>
+                                                <p class="card-text fst-italic">Siempre opto por FULLESCABIO, sin
+                                                    pensarlo dos veces. ¡La calidad y los precios son imbatibles!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!----------- Carousel cards 5 ------------>
+
+                                    <div class="col-12 col-lg-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="IMG/mujer_2.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Josefina</h4>
+                                                <p class="card-text fst-italic">"FULLESCABIO es mi marca de
+                                                    confianza. Sus bebidas son irresistibles. ¡Aguante FULLESCABIO!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!----------- Carousel cards 6 ------------>
+
+                                    <div class="col-12 col-lg-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="IMG/hombre_3.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Rodrigo</h4>
+                                                <p class="card-text fst-italic">"Es mi cómplice para la diversión.
+                                                    ¡Siempre elijo FULLESCABIO para asegurarme de que la fiesta esté en
+                                                    su punto!"</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                    <a class="btn btn-warning mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+                        data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-warning mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------- Formulario ------------>
+
+    <section class="bg-dark py-4" id="newsletter">
+        <div class="container py-4">
+            <div class="row pt-4">
+                <div link="newsletter">
+                <h2 class="text-white fw-bolder">Suscribite a nuestro Newsletter</h2></div>
+                <p class="py-1 text-white">¡Recibí los mejores descuentos y promociones todas las semanas!</p>
+            </div>
+        </div>
+
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="nombres" class="form-label text-white">Nombre (*):</label>
+                            <input type="text" class="form-control" id="nombres"
+                                placeholder="Completar con el nombre/es" required>
+                            <div class="form-text text-white">(*) Este campo es obligatorio.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label text-white">Apellido (*):</label>
+                            <input type="text" class="form-control" id="apellido"
+                                placeholder="Completar con el apellido/os" required>
+                            <div class="form-text text-white">(*) Este campo es obligatorio.</div>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white">E-mail (*):</label>
+                            <input type="email" class="form-control" id="email" placeholder="Completar con el e-mail" aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text text-white">(*) Este campo es obligatorio.</div>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1"> Recordar mi cuenta</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning">Enviar <i class="bi bi-send-fill"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------- Footer ------------>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4 text-start text-black pt-3">
+                    <p class="fs-sm-5 texto-sm">
+                        <strong>Desarrollada por:</strong> <br>
+                        Melissa Jacob <br>
+                        Luciana Gonzalez <br>
+                        Juan Ignacio Hirigoyen <br>
+                        Laura Menéndez Uría
+                    </p>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <!-- Redes Sociales -->
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://www.facebook.com/fullescabiodeliveryarg/?locale=es_LA!" role="button"
+                        data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
+    
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://twitter.com/i/flow/login?redirect_after_login=%2Ffullescabio!" role="button"
+                        data-mdb-ripple-color="dark"><i class="bi bi-twitter-x"></i></a>
+    
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://www.instagram.com/fullescabio/!" role="button" data-mdb-ripple-color="dark"><i
+                            class="bi bi-instagram"></i></a>
+    
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://www.linkedin.com/company/fullescabio/about/" role="button"
+                        data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <div class="col-4 text-end text-black pt-3 ">
+                    <p class="fs-sm-5 texto-sm">
+                        Año 2023 - 1 Año - 2° Cuatrimestre <br>
+                        Programación y Desarrollo II
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="text-center text-white p-3 bg-black">
+            <p class="texto-sm">© 2023 ORT Argentina</p>
+        </div>
+    </footer>
+    
+
+    <!-- cdn de jquery -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script type='text/javascript'></script>
+
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+</body>
+
+</html>

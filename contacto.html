@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FULLESCABIO</title>
+
+    <!---Bootstrap--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!---Bootstrap icons--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!---Fonts--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Jost&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+
+    <!---CSS--->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body oncontextmenu='return false' class='snippet-body'>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="IMG/Logo_fullescabio.svg" alt="#" id="logo_navbar"
+                        class="pb-1">FULLESCABIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="FAQ.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="productos.html">Productos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscá tus productos"
+                            aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+        <section class="banner-contacto">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="text-center">
+                        <h1 class="text-white"><strong>CONTACTO</strong></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario-contacto">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+
+                        <div class="py-5">
+                            <h3 class="text-white">Ante cualquier duda, contáctanos:</h3>
+                        </div>
+
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="nombres" class="form-label text-white">Nombre Completo (*):</label>
+                                <input type="text" class="form-control" id="nombres" placeholder="Completar con el nombre/es">
+                                <div class="form-text text-white">(*) Este campo es obligatorio.</div>
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-white">Email(*):</label>
+                                <input type="text" class="form-control" id="apellido" placeholder="nombre@ejemplo.com">
+                                <div class="form-text text-white">(*) Este campo es obligatorio.</div>
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label text-white">Mensaje(*):</label>
+                                <textarea class="form-control" id="mensaje" placeholder="Ingrese su mensaje" rows="3"></textarea>
+                                <div id="emailHelp" class="form-text text-white">(*) Este campo es obligatorio.</div>
+        
+                                <button type="submit" class="btn btn-warning">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+        
+                    <div class="col-lg-6 col-md-12 pt-5">
+                        <div id="carouselIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="IMG/carousel-1.jpg" class="d-block mx-auto" alt="Amigos 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="IMG/carousel-2.jpg" class="d-block mx-auto" alt="Amigos 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="IMG/carousel-3.jpg" class="d-block  mx-auto" alt="Amigos 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <div class="col-12 d-none d-md-block">
+            <div class="ratio ratio-16x9">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d52529.387844575926!2d-58.551005666056625!3d-34.627248240980684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfullescabio!5e0!3m2!1ses-419!2sar!4v1699219948939!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+
+
+    <!----------- Footer ------------>
+
+    <footer class="text-center text-white">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4 text-start text-black pt-3">
+                    <p class="fs-sm-5 texto-sm">
+                        <strong>Desarrollada por:</strong> <br>
+                        Melissa Jacob <br>
+                        Luciana Gonzalez <br>
+                        Juan Ignacio Hirigoyen <br>
+                        Laura Menéndez Uría
+                    </p>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <!-- Redes Sociales -->
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://www.facebook.com/fullescabiodeliveryarg/?locale=es_LA!" role="button"
+                        data-mdb-ripple-color="dark"><i class="bi bi-facebook"></i></a>
+
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://twitter.com/i/flow/login?redirect_after_login=%2Ffullescabio!" role="button"
+                        data-mdb-ripple-color="dark"><i class="bi bi-twitter-x"></i></a>
+
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://www.instagram.com/fullescabio/!" role="button" data-mdb-ripple-color="dark"><i
+                            class="bi bi-instagram"></i></a>
+
+                    <a class="btn btn-link btn-floating btn-lg text-black m-1 texto-sm"
+                        href="https://www.linkedin.com/company/fullescabio/about/" role="button"
+                        data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <div class="col-4 text-end text-black pt-3 ">
+                    <p class="fs-sm-5 texto-sm">
+                        Año 2023 - 1 Año - 2° Cuatrimestre <br>
+                        Programación y Desarrollo II
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3 bg-black">
+            <p class="texto-sm">© 2023 ORT Argentina</p>
+        </div>
+    </footer>
+
+
+    <!-- cdn de jquery -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script type='text/javascript'></script>
+
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+</body>
+
+</html>
